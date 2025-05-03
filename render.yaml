@@ -3,4 +3,4 @@ services:
     name: nth-largest-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app  # If your file is app.py and not main.py
+    startCommand: gunicorn app:app
