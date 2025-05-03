@@ -2,6 +2,5 @@ services:
   - type: web
     name: nth-largest-app
     env: python
-    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    startCommand: gunicorn app:app  # If your file is app.py and not main.py
